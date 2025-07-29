@@ -170,13 +170,13 @@ const Products = () => {
                       </p>
                       
                       {/* Product List */}
-                      <div className="space-y-2 mb-4 max-h-40 overflow-y-auto">
-                        {category.products.slice(0, 8).map((product, index) => (
+                      <div className="space-y-2 mb-4 max-h-60 overflow-y-auto">
+                        {(selectedCategory ? category.products : category.products.slice(0, 8)).map((product, index) => (
                           <div key={index} className="text-xs text-muted-foreground py-1 px-2 bg-muted/30 rounded">
                             {product}
                           </div>
                         ))}
-                        {category.products.length > 8 && (
+                        {!selectedCategory && category.products.length > 8 && (
                           <div className="text-xs text-primary font-medium">
                             +{category.products.length - 8} more products
                           </div>
@@ -210,8 +210,8 @@ const Products = () => {
                           </Badge>
                         </div>
                         <div className="lg:w-1/3">
-                          <div className="grid grid-cols-2 gap-1 text-xs">
-                            {category.products.slice(0, 6).map((product, index) => (
+                          <div className="grid grid-cols-2 gap-1 text-xs max-h-48 overflow-y-auto">
+                            {(selectedCategory ? category.products : category.products.slice(0, 6)).map((product, index) => (
                               <div key={index} className="text-muted-foreground p-1 bg-muted/30 rounded">
                                 {product}
                               </div>
