@@ -80,6 +80,26 @@ const Index = () => {
         </div>
       </section>
 
+      {/* New Product Announcement */}
+      <section className="py-8 bg-primary">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-center">
+            <span className="bg-white/20 text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold animate-pulse">
+              NEW
+            </span>
+            <h2 className="text-xl md:text-2xl font-bold text-primary-foreground">
+              Our newly added product: <span className="text-white underline decoration-2">ACETONE</span>
+            </h2>
+            <Link to="/products?category=cleaning">
+              <Button variant="secondary" size="sm" className="bg-white text-primary hover:bg-white/90">
+                View in Cleaning
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Stats Section */}
       <section className="py-16 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
