@@ -82,10 +82,10 @@ export const categories: Category[] = [
   {
     id: "cleaning",
     name: "Cleaning",
-    count: 2733,
+    count: 2734,
     description: "Professional cleaning supplies and equipment for industrial and commercial use.",
     products: [
-      "Brooms, Brushes, and Dust Pans", "Janitorial Carts and Supply Holders", "Absorbents", 
+      "Acetone", "Brooms, Brushes, and Dust Pans", "Janitorial Carts and Supply Holders", "Absorbents", 
       "Filter bags", "Kitchen Care", "Room Care", "Sweepers", "Dust Mops, Dusters, and Cleaning Pads", 
       "Paper & Cloth Wipes", "Accessories", "Garbage Bag", "Laundry care", "Shoe Shine Machine", 
       "Water Softening & Treatment", "Equipments", "Waste & Recycling", "Cleaner & Polish", 

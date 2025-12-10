@@ -52,8 +52,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Address", 
-      content: "kalyanisrinivasu236@gmail.com",
-      href: "mailto:kalyanisrinivasu236@gmail.com"
+      content: "unicoreindustrialtraders@gmail.com",
+      href: "mailto:unicoreindustrialtraders@gmail.com"
     },
     {
       icon: Clock,
@@ -131,7 +131,7 @@ const Contact = () => {
                     Call Now
                   </Button>
                 </a>
-                <a href="mailto:kalyanisrinivasu236@gmail.com">
+                <a href="mailto:unicoreindustrialtraders@gmail.com">
                   <Button variant="outline" className="w-full justify-start">
                     <Mail className="h-4 w-4 mr-2" />
                     Send Email
